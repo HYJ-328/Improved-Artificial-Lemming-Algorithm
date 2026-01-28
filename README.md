@@ -3,8 +3,6 @@
 ## Abstract
 With the widespread application of unmanned aerial vehicles (UAVs) in military reconnaissance, agricultural monitoring, and disaster rescue, safe and efficient flight path planning in complex three-dimensional environments has become a critical challenge. UAV path planning is essentially a multi-constraint optimization problem that involves terrain obstacles, no-fly zones, flight altitude, and energy consumption. To overcome the limitations of the artificial lemming algorithm (ALA), including slow convergence and susceptibility to local optima in high-dimensional complex optimization problems, this paper proposes an improved artificial lemming algorithm (IALA). Experimental comparisons based on the CEC2017 benchmark functions demonstrate that IALA outperforms other algorithms in terms of convergence speed, optimization accuracy, stability, and Wilcoxon rank-sum test results, and exhibits superior performance on unimodal, multimodal, hybrid, and composition functions. Furthermore, the proposed IALA is applied to a three-dimensional UAV path planning problem, where it efficiently generates safe and feasible flight paths in complex environments. Compared with the original ALA, the optimal value is reduced by 1.14%, confirming the effectiveness and practical applicability of the proposed improvement strategy in real-world engineering scenarios.
 
-**Index Terms:** Artificial Lemming Algorithm, Unmanned Aerial Vehicle, Three-Dimensional Path Planning
-
 ## Project Structure
 
 ```
